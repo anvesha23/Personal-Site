@@ -1,0 +1,146 @@
+div
+{
+  background-color: #dbf6e9;
+
+}
+h1
+{ font-size:562.5%;
+
+  color:#66BFBF;
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+}
+body
+{ background-color: #dbf6e9;
+  overflow-x: hidden;
+  margin:0;
+  text-align: center;
+  font-family: 'Merriweather Sans', sans-serif;
+}
+
+h2{
+  color:#66BFBF;
+  font-size:2rem;
+  font-family: 'Merriweather Sans', sans-serif;
+  font-weight: normal;
+  line-height: 1.6;
+}
+
+h3{
+  font-family: 'Montserrat', sans-serif;
+  color:#11999E;
+}
+
+a{
+    color:#11999E;
+}
+
+.bottom-cloud{
+position: absolute;
+left:200px;
+top: 70px;
+}
+.top-cloud{
+position: relative;
+left:300px;
+
+}
+
+.skill-row{
+  margin: 100px auto;
+  width: 50%;
+  text-align:left;
+  line-height: 2;
+}
+
+.contact-me{
+  margin: 100px auto;
+  width: 50%;
+  line-height: 2;
+}
+
+.developer{
+  height: 30%;
+  width: 30%;
+  float: left;
+  margin-right: 30px;
+}
+
+.reading1{
+  height: 30%;
+  width: 30%;
+  float: left;
+  margin-right: 30px;
+}
+
+/* Style inputs */
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #9ddfd3;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #aee1e1;
+}
+
+/* Style the container/contact section */
+.container {
+  border-radius: 5px;
+  background-color: #dbf6e9;
+  padding: 10px;
+}
+
+/* Create two columns that float next to eachother */
+.column {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+/* FOOTER */
+.footer {
+  background-color: #dbf6e9;
+  width: 100%;
+  padding: 2%;
+  text-align: center;
+  font-family: 'Saira Condensed';
+  font-style: normal;
+  font-weight: 500;
+  margin-top: auto;
+}
+
+.img{
+  width: 20%;
+  height: 20%;
+  margin-top: 30px;
+}
+.read{
+  margin-top: 30px;
+}
